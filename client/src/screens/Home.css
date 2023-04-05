@@ -1,0 +1,113 @@
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,rgb(0 0 0 / 0.5),
+    rgb(0 0 0 / 0)),url(./hmbg.jpg);
+    /* background: url(./hmbg.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center center;
+  }
+  .home .homeContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+  }
+  .home .homeContent h2{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: #E6E0EF;
+    text-shadow: var(--box-shadow);
+  }
+  .home .homeContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: #E6E0EF;
+  }
+  .home .homeContent .home-btn{
+    height: 3rem;
+  }
+  .home .homeContent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+  }
+  .home .homeContent .home-btn button:hover{
+    font-size: 2rem;
+  }
+  section{
+    padding: 2rem 7%;
+  }
+  .heading{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+  }
+
+
+  @media (max-width: 1080px) {
+    .home .homeContent h2{
+      font-size: 5rem;
+      margin-bottom: 2rem;
+      line-height: 6rem;
+      
+    }
+    .home .homeContent p{
+      font-size: 1.6rem;
+      line-height: 2;
+      margin-bottom: 2rem;
+      color: #E6E0EF;
+    }
+  }
+  @media (max-width: 998px) {
+    .home .homeContent h2{
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      line-height: 5rem;
+      
+    }
+    .home .homeContent p{
+      font-size: 1.3rem;
+      line-height: 2;
+      margin-bottom: 2rem;
+      color: #E6E0EF;
+    }
+
+  }
+  @media (max-width: 798px) {
+    .home .homeContent h2{
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+      line-height: 4rem;
+      
+    }
+    .home .homeContent p{
+      font-size: 1.1rem;
+      line-height: 2;
+      margin-bottom: 2rem;
+      color: #E6E0EF;
+    }
+  }
+  @media (max-width: 520px) {
+    .home .homeContent h2{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      line-height: 4rem;
+      
+    }
+    .home .homeContent p{
+      font-size: 1rem;
+      line-height: 2;
+      margin-bottom: 2rem;
+      color: #E6E0EF;
+    }
+  }
